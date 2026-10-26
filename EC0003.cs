@@ -5,13 +5,9 @@ class Program
         //Crea un programa que imprima por consola el resultado de las siguientes operaciones 
         // matemáticas: “-8 + 6 * 3”, “(2 + 7) % 5” y “2 + ( -1 * 8 ) -5 % 3”.
 
-        int primeraOp = -8 + 6 * 3;
-        int segundaOp = (2 + 7) % 5;
-        int terceraOp = 2 + ( -1 * 8 ) -5 % 3;
-
-        Console.WriteLine("-8 + 6 * 3: " + primeraOp);
-        Console.WriteLine("(2 + 7) % 5: " + segundaOp);
-        Console.WriteLine("2 + ( -1 * 8 ) -5 % 3: " + terceraOp);
+        Console.WriteLine("-8 + 6 * 3: " + (-8 + 6 * 3));
+        Console.WriteLine("(2 + 7) % 5: " + ((2 + 7) % 5));
+        Console.WriteLine("2 + (-1 * 8) - 5 % 3: " + (2 + (-1 * 8) - 5 % 3));
 
     }
 }
