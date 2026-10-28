@@ -13,8 +13,8 @@ class Program
 
         Console.WriteLine("resultado: " + resultado);
 
-        //el resultado es incorrecto porque el tipo int no puede almacenar un número tan grande en muchos compiladores.
-        // Un int de 32 bits con signo suele tener un valor máximo de 2147483647 y el resultad supera ese límite.
-        // Esto provoca un desbordamiento (overflow)
+        // El resultado es incorrecto porque el tipo int no puede almacenar un número tan grande.
+        // Un int de 32 bits con signo tiene un valor máximo de 2147483647 y el resultado supera ese límite.
+        // Esto provoca un desbordamiento (overflow).
     }
 }
