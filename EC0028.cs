@@ -2,7 +2,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Calcula la suma de 1 a N usando un bucle for y despues con un foreach EC0028
+        //Calcula la suma de 1 a N usando un bucle for y despues con un foreach
 
 
         Console.WriteLine("Escribe un numero: ");
