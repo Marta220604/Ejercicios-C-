@@ -28,6 +28,7 @@ class Program
 
             for (int i = 0; i < contador; i++)
             {
+                //Si el compareTo da menos de 0 el primer nombre que se compara va antes por lo tanto ocupa esa posicion en la lista
                 if (nombre.ToLower().CompareTo(nombres[i].ToLower()) < 0)
                 {
                     posicion = i;
